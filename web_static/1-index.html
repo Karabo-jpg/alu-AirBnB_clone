@@ -18,7 +18,7 @@
             width: 100%;
         }
         main {
-            flex: 1;
+            flex: 1 0 auto; /* Ensures main takes up available space */
         }
         footer {
             background-color: #00FF00;
@@ -27,6 +27,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-top: auto; /* Pushes footer to bottom */
         }
     </style>
 </head>
